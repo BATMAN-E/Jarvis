@@ -1,0 +1,23 @@
+# Ignore the envJarvis directory
+# match common casings
+/envjarvis/
+/envJarvis/
+
+# Ignore any envJarvis backups
+/envJarvis_backup/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore contact.csv
+contacts.csv
+
+# Ignore jarvis.db
+jarvis.db
+
+# Ignore Python bytecode files in backend
+/backend/__pycache__/ 
+
+# Ignore backend cookie.json
+/backend/cookie.json
